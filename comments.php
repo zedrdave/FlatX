@@ -1,4 +1,4 @@
-<?php if ( post_password_required() || ! comments_open() ) { return; } ?>
+<?php if ( post_password_required() ) { return; } ?>
 
 <?php flat_hook_comments_before(); ?>
 
